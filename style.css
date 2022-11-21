@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width : 150px;
+    height: 150px;
+}
+button{
+    background-color: blue;
+}
+.main-bg{
+    background-color: #9a9da1;  
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+.main-bg1{
+    background-color: #9a9da1;
+    padding-top: 50px;
+    padding-bottom: 800px;
+}
+.container-bg{
+    background-color: white;
+    width: 50%;
+    border-right: 8px;
+    border-color: red;
+    border-style: solid;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;  
+}
+ul li{
+    list-style-type:none;   
+}
+.thank-you{
+    padding-top: 20px;
+    color: #13bfcf;
+    text-shadow: 4px 4px 6px #000000;
+    font-size: 30px;
+    animation: thankYouCard;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.thank-you1{
+    padding-top: 20px;
+    color: #13bfcf;
+    text-shadow: 4px 4px 6px #000000;
+    font-size: 30px;
+    
+}
+@keyframes thankYouCard {
+    0%{color: red;}
+    25%{color: blue;}
+    50%{color: black;}
+    75%{color: grey;}
+    100%{color: red;}
+}
+.margin{
+    margin-bottom: 10px;
+}
+.main-bg4{
+    background-color: #9a9da1;  
+    padding-top: 50px;
+    padding-bottom: 200px;
+    height: 100vh;
+}
+.footer{
+    background-color:#9a9da1 !important ;
+}
+@media screen and (max-width: 786px){
+    .container-bg{
+        width: 90%;
+    }
+}
