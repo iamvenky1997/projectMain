@@ -61,8 +61,8 @@ submitHandler.addEventListener('submit',(e) =>{
        }
        
         let showData =
-        `<div class=" col-md-4 col-lg-3 my-4">
-        <div class="card" style="width: 18rem;"> 
+        `<div class=" col-md-4 col-lg-3 my-3">
+        <div class="card"> 
           <div class="card-body">
             <h5 class="card-title text-center text-danger">${i.name}</h5>
             <h6 class="card-text">${i.company.toUpperCase()}</h6>
