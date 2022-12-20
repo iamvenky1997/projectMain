@@ -4,6 +4,7 @@ const questions = document.getElementById("questions")
 const submitHandler = document.getElementById("submitHandler")
 const dataHandler = document.getElementById("dataHandler")
 const spinners = document.getElementById("spinners")
+
 submitHandler.addEventListener('submit',(e) =>{
     e.preventDefault()
     if (userName.value ==="" || company.value ==="" || questions.value === "") {
