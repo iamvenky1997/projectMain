@@ -60,7 +60,7 @@ button{
 .margin{
     display: none;
 }
-.margin:nth-child(-n+8){
+.margin:nth-child(-n+14){
     display: block;
 }
 
