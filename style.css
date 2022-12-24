@@ -79,3 +79,8 @@ button{
         width: 90%;
     }
 } */
+button:hover{
+    background-color: red !important;
+    font-style: italic;
+    color:black !important;
+}
