@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="description" content="This is best website, where you can find multiple job opportunities">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="Palindrome">
+    <title>Palindrome</title>
+    <script src="https://kit.fontawesome.com/52b9675f2b.js" crossorigin="anonymous"></script>
+    <link href="../../../style.css" rel="stylesheet" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4723847717527752"
+        crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="https://www.fresherjobsalert.online/images/love.png">
+
+</head><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SYLY7JRCMS"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-SYLY7JRCMS');
+</script>
+
+<body>
+    <main class="main-bg">
+        <div class="container shadow-lg">
+            <div class="row text-light fw-bold">
+                <div class="col-12">
+                    <h2 class="text-success">Palindrome</h2>
+                    <p>A palindrome is a word, phrase, number, or sequence of words that reads the same backward as forward. Punctuation and spaces between the words or lettering are allowed</p>
+                    <h2 class="text-success">Program for a palindrome [string]</h2>
+                    <h5>Solution 1</h5>
+                    <pre class="text-danger">
+inp = input()
+if inp == inp[::-1]:
+    print("It is a palindrome")
+else:
+    print("It is a not a palindrome")
+
+                    </pre>
+                <h5>Solution 2  - Best solution for an interview(string)</h5> 
+                <pre class="text-danger">
+inp = input()
+res = ""
+for i in inp:
+    res = i +res
+if (res == inp):
+    print("it is a palindrome")
+else:
+    print("it is not a palindrome")
+                </pre>
+                   <h2 class="text-success">Program for a palindrome [number]</h2>
+                   <h5>Solution 3  Best solution for an interview(number)</h5>
+                <pre class="text-danger">
+n=int(input("Enter number:"))
+temp=n
+rev=0
+while(n>0):
+    dig=n%10
+    rev=rev*10+dig
+    n=n//10
+if(temp==rev):
+    print("The number is a palindrome!")
+else:
+    print("The number isn't a palindrome!")
+                </pre>
+                <h5>Solution 4</h5>
+                <pre class="text-danger">
+                    
+n=int(input("Enter number:"))
+res = ""
+for i in str(n):
+    res = i + res
+if(int(res) == n):
+    print("it is a palindrome")
+else:
+    print("it is not a palindrome")
+                </pre>
+                </div>
+                <a href="../../../index.html"
+                    style="text-decoration:none;padding: 10px;font-size: 20px;border-radius: 20px;"><button
+                        class="btn btn-success  text-light">Back To Questions</button></a>
+
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+<!-- JavaScript Bundle with Popper -->
+
+
+</html>
