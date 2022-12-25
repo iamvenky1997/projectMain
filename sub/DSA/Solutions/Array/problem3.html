@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="python array,array,java array,php array,arraylist java,javascript array,array in c,c++ array,DSA array">
+    <title>Array</title>
+    <meta name="description" content="This is best website, where you can find multiple job opportunities">
+    <link href="../../../style.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/52b9675f2b.js" crossorigin="anonymous"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4723847717527752"
+        crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="https://www.fresherjobsalert.online/images/love.png">
+
+</head><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SYLY7JRCMS"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-SYLY7JRCMS');
+</script>
+
+<body>
+    <main class="main-bg min-vh-100">
+        <div class="container shadow-lg">
+            <div class="row text-light fw-bold ">
+                <div class="col-12 text-justify my-5">
+
+                   <h6 class="text-danger">Question : Reverse Given array without creating extra array</h6>
+                   <h5 class="text-success">Program : </h5>
+            <pre class="text-danger">
+a = [1,2,3,4,5,6,7,8]
+i = 0
+j = len(a)-1
+while(i < j):
+    a[i],a[j] = a[j],a[i]
+    i += 1
+    j -= 1
+print(f"reversed array  : {a}")
+
+<h5 class="text-success">Output : </h5>   
+<p>reversed array  : [8, 7, 6, 5, 4, 3, 2, 1]</p>
+
+                
+</pre>
+
+<h5 class="text-success">Solution-2 </h5>
+<pre class="text-danger">
+a = [1,2,3,4,5,6,7,8,9]
+middle = len(a) //2
+for i in range(middle):
+    a[i],a[len(a)-1-i] = a[len(a)-1-i],a[i]
+print(a)
+
+
+</pre>
+<h5 class="text-success">Solution-3 </h5>
+<pre class="text-danger">
+a = [1,2,3,4,5,6,7,8,9]
+for i in range(len(a)):
+    num = a.pop()
+    a.insert(i,num)
+print(a)
+</pre>
+<h5>By creating an extra array</h5>
+<h5 class="text-success">Solution-4 </h5>
+<pre class="text-danger">
+a = [1,2,3,4,5,6,7,8,9]
+b = []
+for i in a :
+    b.insert(0,i)
+print(b)
+</pre>
+<h5 class="text-success">Solution-5 </h5>
+<pre class="text-danger">
+a = [1,2,3,4,5,6,7,8]
+b = []
+for i in range(len(a)):
+    item = a.pop()
+    b.append(item)
+print(b)
+</pre>
+
+<h5 class="text-success">Solution-6 </h5>
+<pre class="text-danger">
+a = [1,2,3,4,5,6,7,8,9]
+b = [0] * len(a)
+for i in range(len(a)):
+    b[i] = a[len(a)-1-i]
+print(b)
+</pre>
+
+<h5>By Using in-built functions</h5>
+<h5 class="text-success">Solution-7</h5>
+<pre class="text-danger">
+a = [1,2,3,4,5,6,7,8,9]
+a[::-1] (or) a.reverse()
+print(a)
+</pre>
+</div>
+<a href="https://www.fresherjobsalert.online/"
+style="text-decoration:none;padding: 10px;font-size: 20px;border-radius: 20px;margin: 10px;padding: 10px;"><button
+    class="btn btn-success text-light">Back to Home</button></a>
+                </div>
+       
+            </div>
+        
+
+        </div>
+
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4723847717527752"
+        crossorigin="anonymous"></script>
+   <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-format="autorelaxed"
+        data-ad-client="ca-pub-4723847717527752"
+        data-ad-slot="4992308973"></ins>
+   <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+   </script>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
