@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="python array,array,java array,php array,arraylist java,javascript array,array in c,c++ array,DSA array">
+    <title>Array</title>
+    <meta name="description" content="This is best website, where you can find multiple job opportunities">
+
+    <script src="https://kit.fontawesome.com/52b9675f2b.js" crossorigin="anonymous"></script>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4723847717527752"
+        crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="https://www.fresherjobsalert.online/images/love.png">
+
+</head><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SYLY7JRCMS"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-SYLY7JRCMS');
+</script>
+
+<body>
+    <main class="main-bg bg-secondary min-vh-100">
+        <div class="container shadow-lg">
+            <div class="row text-light fw-bold ">
+                <div class="col-12 text-justify my-5">
+
+                   <h6 class="text-danger">Question :Given n element in an array, count the number of elements having at least 1 element greater than itself</h6>
+                   <h5 class="text-danger">Algorithm : </h5>
+                   <p>If we find the maximum element in an array. Then we can say all the other elements are less than the maximum element. By this observation we can easily find out the solution</p>
+
+                   <ol>
+                    <li>Find the maximum element of given array</li>
+                    <li>Find the count of maximum in the array</li>
+                    <li>Subtract total number of elements in an array with count of maximum number in given array </li>
+                   </ol>
+            <h5 class="text-success">solution 1 : </h5>
+            <pre class="text-danger">
+a = [2,3,53,34,3,4,5,6,7,8,4,53,3,53]
+max = a[0]
+count = 1
+for i in a:
+    if max < i:
+        max = i
+        count = 1
+    elif max == i:
+        count += 1
+
+res = len(a) - count
+print(f"{res} having at least 1 element greater than itself in the given arrar.")
+</pre>
+<h5>output : </h5>
+<p class="text-danger">11 having at least 1 element greater than itself in the given arrar.</p>
+<div class="col-12">
+    <h5 class="text-success">Solution : 2</h5>
+    <pre class="text-danger">
+a = [2,3,53,34,3,4,5,6,7,8,4,53,3,53]
+print(len(a) - a.count(max(a)))
+    </pre>
+
+</div>
+<a href="https://www.fresherjobsalert.online/"
+style="text-decoration:none;padding: 10px;font-size: 20px;border-radius: 20px;margin: 10px;padding: 10px;"><button
+    class="btn btn-success text-light">Back to Home</button></a>
+                </div>
+       
+            </div>
+        
+
+        </div>
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
