@@ -79,3 +79,11 @@ button{
         width: 90%;
     }
 } */
+
+.inner-anchor{
+    text-decoration:none;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 10px;
+}
